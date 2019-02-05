@@ -1,0 +1,73 @@
+.pagehding-sec {
+    background-image: url(../image/page_hd.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 130px;
+    padding-top: 130px;
+    position: relative;
+    background-size: cover;
+}
+.page-heading h1 {
+    font-size: 74px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.blur {
+    background-color: rgba(0, 0, 0, 0.60);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.list {
+    text-align: center;
+}
+
+.list li a {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+}
+
+.list li:last-child a {
+    color: #1ab4f0;
+}
+
+.callus-sec2 {
+	display: inline-block;
+    width: 100%;
+    padding: 60px 0px;
+    background: #1ab4f0;
+    margin-bottom: -10px;
+}
+
+.callus-text2 {
+    color: #fff;
+    text-align: left;
+}
+	
+.callus-text2 p {
+    margin-bottom: 0;
+    color: #222222;
+    font-size: 18px;
+}
+
+.testimonial{
+	padding-top: 100px;
+	padding-bottom:100px;
+}
+
+#testimonial-member.carousel .carousel-indicators > li {
+  background-color: #1ab4f0;
+  border: none;
+}
+
+#testimonial-member.carousel .carousel-indicators {
+  position: absolute;
+  bottom: -80px;
+}
