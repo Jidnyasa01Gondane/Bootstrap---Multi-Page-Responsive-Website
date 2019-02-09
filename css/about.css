@@ -49,6 +49,7 @@
 .callus-text2 {
     color: #fff;
     text-align: left;
+	text-transform: capitalize;
 }
 	
 .callus-text2 p {
@@ -70,4 +71,159 @@
 #testimonial-member.carousel .carousel-indicators {
   position: absolute;
   bottom: -80px;
+}
+
+.pagination-sec {
+	text-align:center;
+	padding:40px 50px;
+}
+
+.pagination-sec ul li {
+	display: inline-block;
+}
+
+/*.pagination-sec li.active a {
+    background: #1ab4f0 none repeat scroll 0 0;
+    color: #fff;
+}*/
+.pagination-sec li a {
+    color: #777777;
+    font-size: 16px;
+    font-weight: 500;
+    height: 45px;
+    line-height: 33px;
+    margin: 2px 5px;
+    width: 45px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+.all-patner-sec {
+	padding-top: 100px;
+	padding-bottom: 70px;
+}
+
+.team-details-thumb {
+	display: inline-block;
+}
+
+.team-details-info {
+    margin-bottom: 30px;
+}
+
+.team-details-info h1 {
+    font-size: 62px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.team-details-info h1 span{
+    color: #1ab4f0;
+}
+
+.team-details-designation {
+    color: #777777;
+    font-size: 20px;
+}
+
+.team-details-inner li {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 10px;
+    color: #555555;
+    font-size:18px;
+}
+
+.team-details-inner li i {
+    color: #1ab4f0;
+    margin-right: 10px;
+}
+
+.simple-readmore {
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 4px;
+    text-align: center;
+    background: #1ab4f0;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid #1ab4f0;
+}
+
+.team-details-desc {
+    margin-top: 50px;
+}
+
+.team-details-desc h2 {
+    text-transform: capitalize;
+    font-size: 26px;
+	color: #111;
+}
+
+.contact-us {
+	padding-bottom: 70px;
+	padding-top: 100px;
+}
+
+.contact-info-inner {
+    text-align: center;
+    background: #1ab4f0;
+    padding: 30px 5px;
+    position: relative;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+.contact-info-text h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.contact-info-text span {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+}
+
+.contact-us input[type="text"], input[type="email"] {
+	font-size: 14px;
+	text-transform: capitalize;
+	padding: 12px;
+	background: transparent;
+    border: 1px solid #d9d9d9;
+	color: #777777;
+    width: 100%;
+}
+
+.input-inner {
+	margin-top: 20px;
+}
+
+.contact-us textarea {
+	font-size: 14px;
+	text-transform: capitalize;
+	padding: 12px;
+	background: transparent;
+    border: 1px solid #d9d9d9;
+	color: #777777;
+    width: 100%;
+	height: 125px;
+	margin: 20px 0;
+}
+
+.contact-us input[type="submit"] {
+    background: #1ab4f0;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 25px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    margin-top: 20px;
+	margin-bottom: 80px;
 }

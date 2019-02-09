@@ -80,6 +80,13 @@ img {
 	margin-left: 45px;
 }
 
+.navbar ul ul li a {
+    line-height: 120%;
+    padding: 10px 20px;
+    color: #ddd;
+    #border-bottom: 1px solid #2c2e3d;
+}
+
 .navigation .btn {
 	background-color: #1ab4f0;
 }
@@ -275,12 +282,11 @@ img {
 
 .services-i-left i {
 	color: #FFF;
-	
 	font-weight:900;
 	font-size: 25px;
 	position: absolute;
 	left: 36px;
-	top: 22%;	
+	top: 47px;	
 }
 .services-i-right {
 	padding-left: 60px;
@@ -474,7 +480,13 @@ img {
 	padding-top: 100px;
 	padding-bottom:100px;
 	background-image: url(../image/teastimonial_bg.jpg);
-	background-attachment: scroll;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: hidden;
+	height: auto;
+	width: 100%;
+	margin: 20px 0;
 }
 
 .client-single {
@@ -483,7 +495,8 @@ img {
     background: #fff none repeat scroll 0 0;
     position: relative;
     text-align: left;
-    margin-left: 75px;
+    margin-left: 50px;
+	margin-bottom: 20px;
 }
 
 .client-img {
